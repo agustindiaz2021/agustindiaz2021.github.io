@@ -1,0 +1,51 @@
+*{
+    background-color: rgb(191, 209, 244);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+h1,h2{
+    text-align: center;
+}
+
+h1{
+    text-shadow: rgb(26, 106, 225) 1.5px 1.5px;
+}
+
+h2{
+    text-decoration-line: underline;
+}
+
+.tabla{
+    margin: 150 auto;
+    width: 600px;
+
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    background-color:black;
+}
+
+table :hover{
+    background-color: brown;
+    cursor: pointer;
+    
+}
+
+th, tr{
+    padding: 0;
+}
+
+#foto{
+    width: 25%;
+    padding: auto;
+    border-radius: 50px;
+    display: flex;
+    border: 2px black solid;
+    border-top-right-radius: 20px;
+}
+
+.form{
+    text-align: center;
+}
